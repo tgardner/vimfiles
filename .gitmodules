@@ -1,0 +1,8 @@
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = git@github.com/jiangmiao/auto-pairs
+
+[submodule "bundle/closetag.vim"]
+	path = bundle/closetag.vim
+	url = git@github.com/vim-scripts/closetag.vim
+
