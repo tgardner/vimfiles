@@ -37,7 +37,6 @@ set pastetoggle=<F11>
 
 filetype plugin indent on
 Bundle "jiangmiao/auto-pairs"
-Bundle "StanAngeloff/php.vim"
 Bundle "vim-scripts/closetag.vim"
 
 " Enable omni completion.
