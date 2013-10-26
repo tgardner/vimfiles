@@ -44,4 +44,4 @@ Bundle "StanAngeloff/php.vim"
 
 nmap <F8> :TagbarToggle<CR>
 imap jk <Esc>
-
+imap <C-w> <C-o><C-w>
