@@ -38,11 +38,10 @@ set pastetoggle=<F11>
 filetype plugin indent on
 Bundle "jiangmiao/auto-pairs"
 Bundle "vim-scripts/closetag.vim"
+Bundle "ervandew/supertab"
+Bundle "majutsushi/tagbar"
+Bundle "StanAngeloff/php.vim"
 
-" Enable omni completion.
-autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
-autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
-autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
-autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+nmap <F8> :TagbarToggle<CR>
+imap jk <Esc>
 
