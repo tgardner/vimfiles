@@ -42,6 +42,7 @@ Bundle "ervandew/supertab"
 Bundle "majutsushi/tagbar"
 Bundle "StanAngeloff/php.vim"
 Bundle "scrooloose/nerdtree"
+Bundle "tpope/vim-fugitive"
 
 nmap <F8> :TagbarToggle<CR>
 map <F7> :NERDTreeToggle<CR>
