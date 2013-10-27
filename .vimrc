@@ -41,7 +41,9 @@ Bundle "vim-scripts/closetag.vim"
 Bundle "ervandew/supertab"
 Bundle "majutsushi/tagbar"
 Bundle "StanAngeloff/php.vim"
+Bundle "scrooloose/nerdtree"
 
 nmap <F8> :TagbarToggle<CR>
+map <F7> :NERDTreeToggle<CR>
 imap jk <Esc>
 imap <C-w> <C-o><C-w>
