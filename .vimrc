@@ -34,6 +34,7 @@ set cmdheight=2
 set number
 set notimeout ttimeout ttimeoutlen=200
 set pastetoggle=<F11>
+set shortmess+=I
 
 filetype plugin indent on
 Bundle "jiangmiao/auto-pairs"
