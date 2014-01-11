@@ -5,3 +5,5 @@ if has("unix")
 		set transparency=15
 	endif
 endif
+let do_syntax_sel_menu = 1|runtime! synmenu.vim|aunmenu &Syntax.&Show\ filetypes\ in\ menu
+
